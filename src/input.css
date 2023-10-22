@@ -1,0 +1,24 @@
+@import 'tailwind /base';
+@import' tailwind /components';
+@import 'tailwind /utilities';
+
+.header {
+    background-color: blue;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+
+}
+
+.navbar {
+max-width: 1024px;
+background-color: #4a0000;
+margin: auto;
+height: 70px;
+color: #fff;
+display: flex;
+justify-content: auto;
+align-items: auto;
+gap: 20px;
+}
